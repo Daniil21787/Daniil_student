@@ -18,7 +18,7 @@ name = 'Даниил'
 print(name)
 age=21
 print(age)
-new_age=age+1
-print(new_age)
+age=age+1
+print(age)
 Is_student= True
 print(Is_student)
