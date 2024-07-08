@@ -1,0 +1,25 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+immutable_var = 1, 2.0, 'apple', True
+print(immutable_var)
+# Ошибка, так как кортеж не позволяет менять элементы и не поддерживает обращение с ними
+
+mutable_list = [4, 5.1, False, 'chair']
+mutable_list[0] = 17
+mutable_list.append('seven')
+mutable_list.remove(False)
+print(mutable_list)
