@@ -14,9 +14,8 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm
-DZ= '12'
-time= '1.5'
+DZ= 12
+time= 1.5
 name= 'Python'
-print(1.5/12)
-time_2= '0.125'
+time_2= (DZ/1.5)
 print('Курс: '+name+ ', всего задач: '+DZ+', затрачено часов: '+time+', среднее время выполнения '+time_2+ ' часа')
